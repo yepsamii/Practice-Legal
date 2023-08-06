@@ -23,11 +23,15 @@
         .garamond {
             font-family: 'EB Garamond', serif;
         }
+
+        .ban1{
+            background-image: url('images/banner.png');
+        }
     </style>
 </head>
 
 <body>
-    <header class="h-24 px-36 pt-3 mb-2">
+    <header class="h-24 px-36 pt-3 mb-">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -50,8 +54,22 @@
               </div>
         </nav>
     </header>
-    <main>
 
+    <main>
+        <section class=" relative flex justify-center mb-10">
+            <div class="ban1 bg-contain h-[28.2rem] w-[60rem] overflow-hidden flex justify-center items-center"> 
+                <div class="text-center">
+                    <h1 class="garamond text-white lea font-extrabold text-5xl mb-5">We Provide Effective<br>Legal Solutions</h1>
+                    <p class="poppins text-[#e7e7e7a5] leading-6 mb-7">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+                        have suffered alteration in some form, by injected humour.
+                    </p>
+                    <div class="inline-flex w-full gap-3">
+                        <input type="text" placeholder="Search your services" class="poppins input input-bordered w-full" />
+                        <a class="btn hover:bg-[#6b4311] border-none bg-[#B68C5A] text-white px-4 py-4 poppins font-medium">Search</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer px-28 py-28 bg-[#111] text-base-content sm:justify-center">
